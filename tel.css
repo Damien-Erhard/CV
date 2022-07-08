@@ -1,0 +1,30 @@
+@media only screen and (max-width:600px) 
+{
+    body
+    {
+        font-size: x-large;
+        font-weight: bolder;
+        background-image: url('');
+    }
+    [class*="col-"]
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (orientation:landscape) and (max-width:600px) 
+{
+    body
+    {
+        font-size: x-large;
+        font-weight: bolder;
+      background-image: url('');
+      background-size: cover;
+      background-repeat:repeat;
+    }
+    [class*="col-"]
+    {
+        width: 100%;
+    }
+      
+  }
