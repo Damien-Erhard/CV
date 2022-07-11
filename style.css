@@ -27,42 +27,31 @@
     border: 1px solid red;
 }
 
-@media only screen and (max-width:600px) {
-
-    [class*="col-"] {
-        width: 100%;
-        background-color: rgb(61, 61, 61);
-    }
-
-}
 
 body {
-    background-color: rgb(61, 61, 61);
+    background-color: #1e1c27;
 }
 
 .nt {
     text-align: center;
-    color: white;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
+.name{
+    color: white;
+    font-size: 230%;
+}
 
 .titre {
-    color: white;
-    font-size: 13px;
+    color: #5ce1e6;
+    font-size: 170%;
 }
 
 .compApt {
     padding-top: 15%;
 }
 
-
-#inf {
-    text-align: flex-start;
-}
-
 a {
-
     color: white;
     font-size: 20px;
 }
@@ -77,21 +66,25 @@ p {
     height: auto;
 }
 
-.competence {
-    color: white;
-    border-right: 6px rgb(0, 0, 0, 0.3) solid;
+.perso{
+    border-right: #5ce1e6 solid;
+    text-align: center;
 }
 
-.aptitude {
-    color: white;
+.hun {
+    color: #5ce1e6;
+    border-right: #5ce1e6;
+}
+
+.exp{
+    text-align: center;
 }
 
 .hdeux {
-    text-align: center;
+    color: #5ce1e6;
 }
 
 ul,
 li {
-
     color: transparent;
 }
