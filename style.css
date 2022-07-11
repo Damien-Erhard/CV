@@ -1,3 +1,5 @@
+/** responvice **/
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -23,21 +25,24 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 25px;
     border: 1px solid red;
 }
 
+/** fin responcive **/
 
 body {
     background-color: #1e1c27;
 }
+
+/** banniere **/
 
 .nt {
     text-align: center;
     padding-top: 2%;
 }
 
-.name{
+.name {
     color: white;
     font-size: 230%;
 }
@@ -47,44 +52,59 @@ body {
     font-size: 170%;
 }
 
-.compApt {
-    padding-top: 15%;
+/** fin banniere **/
+
+/** PROJET GITHUB **/
+
+.github{
+    display: flex;
+    justify-content: center;
+    border-color: #5ce1e6;
 }
 
-a {
+/** fin projet github **/
+
+/** INFO **/
+
+.boxtrois{
+    margin-top: 2%;
+}
+
+#inf {
+    display: flex;
     color: white;
     font-size: 20px;
 }
 
-p {
+.perso {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+/** fin info **/
+
+/** EXPERIENCE **/
+
+.exp {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.experience{
+    display: flex;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.phone {
-    width: 18px;
-    height: auto;
-}
-
-.perso{
-    border-right: #5ce1e6 solid;
-    text-align: center;
-}
-
-.hun {
-    color: #5ce1e6;
-    border-right: #5ce1e6;
-}
-
-.exp{
-    text-align: center;
-}
-
-.hdeux {
-    color: #5ce1e6;
-}
+/** fin experience **/
 
 ul,
 li {
+    padding-left: 15%;
+    display: flex;
     color: transparent;
+    flex-direction: column;
+    
 }
